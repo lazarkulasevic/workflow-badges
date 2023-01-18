@@ -7,11 +7,9 @@ on:
 
 jobs:
   setup:
-    name: Setup, Lint and Test
+    name: Setup
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Actions
-        uses: actions/checkout@v3
       - name: Success
         run: |
           echo "Hello World!"
