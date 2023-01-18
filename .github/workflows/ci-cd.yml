@@ -13,3 +13,7 @@ jobs:
       - name: Success
         run: |
           echo "Hello World!"
+      - name: Failure
+        run: |
+          echo "Hello World NOT!"
+          exit 1
